@@ -52,7 +52,8 @@ class BScan
      * @return bool
      */
     public function isBot($userAgent = '') {
-        if (strpos(self::$this->crawlers, $userAgent) === false)
+        return true;
+        if (strpos($this->crawlers, $userAgent) === false)
             return false;
         else {
             return TRUE;
