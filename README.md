@@ -1,4 +1,4 @@
 # bot-detect
-Detects CEO bots
+Detects SEO bots
 
 NOT READY
